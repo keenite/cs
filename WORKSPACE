@@ -1,0 +1,17 @@
+local_repository(
+# Name of the Abseil repository. This name is defined within Abseil's
+# WORKSPACE file, in its `workspace()` metadata
+name = "com_google_absl",
+
+# NOTE: Bazel paths must be absolute paths. E.g., you can't use ~/Source
+path = "/home/wenji/source/abseil-cpp",
+)
+
+local_repository(
+# Name of the Abseil repository. This name is defined within Abseil's
+# WORKSPACE file, in its `workspace()` metadata
+name = "com_google_test",
+
+# NOTE: Bazel paths must be absolute paths. E.g., you can't use ~/Source
+path = "/home/wenji/googletest",
+)
