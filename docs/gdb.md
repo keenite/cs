@@ -1,5 +1,5 @@
 # GDB with bazel notes
-Try the commands with [gdb_test/gdb_sample.cc]
+Try the commands with [gdb_test/gdb_sample.cc](cppstudy/gdb_test/gdb_sample.cc)
 
 ## Run gdb with bazel build
 ```
