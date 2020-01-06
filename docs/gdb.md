@@ -9,6 +9,9 @@ Try the commands with [gdb_test/gdb_sample.cc](https://github.com/keenite/cppstu
 ## Frently use commands
 * break, run, list, frame, print, next, info, backtrace, delete, continue
 
+## Set source file path
+* set directories /path/to/source/file
+
 ### Setting break point
 ```
 (gdb) b 21 //Setting the break point at line 21
