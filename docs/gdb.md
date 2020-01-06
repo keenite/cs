@@ -42,3 +42,8 @@ Try the commands with [gdb_test/gdb_sample.cc](https://github.com/keenite/cppstu
 (gdb) p v1
 (gdb) info locals //shows all the local variable number
 ```
+* GDB can break in condition
+
+```
+(gdb) b 6 if i > 50
+```
