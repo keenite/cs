@@ -9,6 +9,11 @@ Try the commands with [gdb_test/gdb_sample.cc](https://github.com/keenite/cppstu
 ## Frently use commands
 * break, run, list, frame, print, next, info, backtrace, delete, continue
 
+## Set source file path
+```
+(gdb) set directories /path/to/source/file
+```
+
 ### Setting break point
 ```
 (gdb) b 21 //Setting the break point at line 21
@@ -41,4 +46,9 @@ Try the commands with [gdb_test/gdb_sample.cc](https://github.com/keenite/cppstu
 (gdb) f 2 //frame: with number will switch to the context of a frame, here we jump back to frame 2 fun1()
 (gdb) p v1
 (gdb) info locals //shows all the local variable number
+```
+* GDB can break in condition
+
+```
+(gdb) b 6 if i > 50
 ```
