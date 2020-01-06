@@ -6,7 +6,7 @@ Try the commands with [gdb_test/gdb_sample.cc](https://github.com/keenite/cppstu
  bazel build -c dbg :gdb_sample
  bazel run -c dbg --run_under=gdb :gdb_sample
 ```
-## Frently use commands
+## Frently use commands - break, run, list, frame, print, next, info, backtrace
 ### Setting break point
 ```
 (gdb) b 21 //Setting the break point at line 21
