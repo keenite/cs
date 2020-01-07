@@ -8,3 +8,8 @@ cc_binary(
   name = "map",
   srcs = ["map.cc"],
 )
+
+cc_binary(
+  name = "list",
+  srcs = ["list.cc"],
+)
