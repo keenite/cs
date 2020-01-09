@@ -4,3 +4,4 @@
 * [Abseil Flags](abseil_flags/flags.cc)
 * [Smart pointers](smart_ptr/)
 * [STL realted examples](stl/)
+* [Random library](random/)
