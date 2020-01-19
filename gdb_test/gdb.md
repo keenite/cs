@@ -19,7 +19,7 @@ Try the commands with [gdb_test/gdb_sample.cc](https://github.com/keenite/cppstu
 (gdb) b 21 //Setting the break point at line 21
 (gdb) b main //Setting the break point at function main
 
-(gdb) r  //run: the code
+(gdb) r //run: the code
 (gdb) l //list: the code around 25
 
 (gdb) f //frame: show where the code is
@@ -51,4 +51,8 @@ Try the commands with [gdb_test/gdb_sample.cc](https://github.com/keenite/cppstu
 
 ```
 (gdb) b 6 if i > 50
+```
+* Run GDB with parameters
+```
+(gdb) r --wss_mean=100 --cmn_size=3 --wss_stdev=10
 ```
