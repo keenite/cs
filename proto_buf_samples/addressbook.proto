@@ -2,7 +2,7 @@
 //protoc addressboo.proto --cpp_out=./
 syntax = "proto2";
 
-//package tutorial;
+package tutorial;
 
 import "google/protobuf/timestamp.proto";
 
