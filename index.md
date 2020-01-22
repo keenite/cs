@@ -7,4 +7,4 @@
 * [STL realted examples](stl/)
 * [Random library](abseil_random/)
 * [Proto BUffer](https://github.com/keenite/cs/tree/master/proto_buf_samples)
-* [Proto BUffer](https://github.com/keenite/cs/tree/master/google_test)
+* [Google_Test](https://github.com/keenite/cs/tree/master/google_test)
